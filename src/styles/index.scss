@@ -1,0 +1,25 @@
+@import './reset';
+
+// 滚动条样式
+::-webkit-scrollbar-track
+{
+  background: rgb(0 0 0 / 10%);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar
+{
+  width: 15px;
+  height: 12px;
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar-thumb
+{
+  cursor: pointer;
+  background-image: linear-gradient(aquamarine,#fd7286,lightgreen);
+  border-radius: 5px;
+
+  /* background: #fd7286; */
+  transition: color .2s ease;
+}
